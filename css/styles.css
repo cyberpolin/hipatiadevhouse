@@ -8,7 +8,8 @@ a{
   text-decoration: none;
 }
 nav{
-  width: 1024px;
+  width: 100%;
+  max-width: 1024px;
   margin: 0 auto;
 }
 nav ul {
@@ -120,7 +121,7 @@ footer a{
   color: #000;
 }
 .footer-legal img{
-  margin: 20px 0 0 30px;
+  margin: 15px 0 0 30px;
 }
 .footer-legal span{
   margin: 10px 10px 0 20px;
