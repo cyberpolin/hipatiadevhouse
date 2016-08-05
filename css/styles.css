@@ -1,0 +1,265 @@
+header img{
+    margin-left:  20px;
+    display: inline-block;
+    float: left;
+    padding-top: 10px;
+}
+a{
+  text-decoration: none;
+  color:#000;
+}
+nav{
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+nav ul {
+  list-style: none;
+  margin-bottom: 0;
+  display: inline-block;
+  position: relative;
+  left: 6rem;
+}
+nav ul li{
+  display: inline-block;
+  padding: 16px;
+  margin-bottom: 0;
+}
+nav ul li:hover{
+  border-bottom: 6px solid #FEEF29;
+
+}
+nav ul li a {
+  color: #000;
+  font-size: 1.3rem;
+}
+nav ul li a:hover{
+  color: #000;
+}
+.search{
+  display: inline-block;
+  margin-bottom: 0;
+  position: relative;
+  left: 12.5rem;
+}
+.search input{
+  background: url(../images/lupa.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 70%;
+}
+
+.img-cabecera{
+    background: gray;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+    clear: both;
+}
+.img-central{
+  width: 100%;
+  max-width: 960px;
+}
+
+.div-page-equipo{
+  background: #FCEE02;
+  font-size:2.5rem;
+  font-weight: bold;
+  line-height: 30px;
+  color: #fff;
+  padding: 50px 20px;
+}
+.div-equipo{
+  margin: 10px 0 20px 0;
+  background: #FCEE02;
+  padding: 10px;
+}
+.div-equipo span{
+  font-size: 2rem;
+
+}
+
+.div-escuela{
+  background: #000;
+  padding: 50px 20px;
+  margin-bottom: 20px;
+  color: #F0E005;
+  font-size:2.5rem;
+  font-weight: bold;
+  line-height: 30px;
+
+}
+.div-lenguaje{
+  background: #9D9EA0;
+  font-size:2.5rem;
+  font-weight: bold;
+  line-height: 30px;
+  padding: 53px 60px;
+  color: #fff;
+}
+/*Footer*/
+footer .footer-gray{
+  background: #646464;
+  color: white;
+}
+
+footer a{
+  color: #fff;
+}
+.columns-footer{
+  padding: 35px 0 0 30px;
+
+}
+#input-email{
+  color: #000;
+}
+#boton-enviar{
+  color:#000;
+  background: #FEEF29;
+}
+.footer-legal{
+  background: #FEED00;
+  color: #000;
+  clear: both;
+}
+.footer-legal img{
+  margin: 15px 0 0 30px;
+}
+.footer-legal span{
+  margin: 10px 10px 0 20px;
+  display: inline-block;
+}
+.social-media img{
+  margin: 5px 5px 20px 0;
+    -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+.language {
+  margin-bottom: 15px;
+}
+footer p{
+  font-size: 1.3rem;
+}
+.footer-p{
+  font-size: 1.7rem;
+  font-weight: 800;
+  margin-bottom: 2px;
+}
+
+/*--- COURSE PAGE ---*/
+/*NAVBAR*/
+.side-nav{
+  position: fixed;
+  width: 6px;
+  text-align: center;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  margin-top: 80px;
+  background: rgba(254, 237, 0, 0.5);
+  overflow: hidden;
+
+}
+.side-nav a {
+  padding: 10px;
+  display: block;
+  color: #000;
+}
+.side-nav a i{
+  opacity: 1;
+}
+.side-nav:hover{
+  width: 60px;
+  opacity:1;
+}
+/*HEADER*/
+#header-course{
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3);
+}
+#header-course span{
+  font-size: 3rem;
+  position: relative;
+  left: 15%;
+}
+#header-course img{
+  float: right;
+  margin-right: 20px;
+  padding: 0;
+}
+#header-course a{
+  color: #000;
+  float: right;
+  margin: 10px 3px;
+}
+#header-course a .status{
+  margin: 14px 15px 0 0;
+}
+/*CONTAINER*/
+#container{
+  height: 820px;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+.container-left h4, p {
+  margin: 35px;
+}
+.container-derecha{
+}
+.container-media{
+
+  padding-left: 5px;
+  height: 600px;
+}
+.container-media img{
+  width: 100%;
+  margin: 200px auto;
+}
+.container-center{
+  text-align: center;
+}
+.container-center a{
+  opacity: 0.3;
+}
+.container-center a:hover{
+  opacity: 1;
+  color: #000;
+}
+.container-center .empty{
+  height: 700px;
+}
+.container-button{
+  float: right;
+  margin-top: 100px;
+}
+.container-button a i{
+  margin: 0 10px;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+}
