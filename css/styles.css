@@ -98,7 +98,7 @@ nav ul li a:hover{
   color: #fff;
 }
 /*Footer*/
-footer .footer-gray{
+#footer-gray{
   background: #646464;
   color: white;
 }
@@ -195,7 +195,6 @@ footer p{
 }
 /*CONTAINER*/
 #container{
-  height: 820px;
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
@@ -206,26 +205,11 @@ footer p{
 .container-derecha{
 }
 .container-media{
-
   padding-left: 5px;
-  height: 600px;
 }
 .container-media img{
   width: 100%;
   margin: 200px auto;
-}
-.container-center{
-  text-align: center;
-}
-.container-center a{
-  opacity: 0.3;
-}
-.container-center a:hover{
-  opacity: 1;
-  color: #000;
-}
-.container-center .empty{
-  height: 700px;
 }
 .container-button{
   float: right;
@@ -233,33 +217,4 @@ footer p{
 }
 .container-button a i{
   margin: 0 10px;
-}
-
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-}
-
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-}
-
-.tooltip .tooltiptext::after {
-    content: " ";
-    position: absolute;
-    top: 50%;
-    right: 100%; /* To the left of the tooltip */
-    margin-top: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: transparent black transparent transparent;
 }
