@@ -218,3 +218,66 @@ footer p{
 .container-button a i{
   margin: 0 10px;
 }
+
+
+/* Pagina de los cursos*/
+#header-title{
+  background: red;
+  height: 200px;
+  text-align:center;
+}
+#header-title span{
+  font-size:72px;
+}
+.active{
+  border-bottom: 6px solid #FEEF29;
+}
+
+.main-course{
+  padding:0 0 4% 0;
+}
+.row-course{
+  display: flex;
+  justify-content:center;
+}
+.courses{
+  width:220px;
+  height: 260px ;
+  background: red;
+  margin: 1% 4%;
+}
+.row-course .courses div{
+  display:flex;
+  justify-content: center;
+  padding: 1% 0;
+}
+.row-course .courses h6, p{
+  display:flex;
+  justify-content: center;
+  margin: 1em .3em;
+}
+/* Pagina Login*/
+
+#frame-login{
+  border:2px solid #000;
+  text-align:center;
+  margin: 10% 0;
+}
+
+#frame-login h3{
+  display:block;
+  margin-top:1em;
+}
+
+#frame-form input{
+  display:block;
+}
+
+#frame-links{
+  border-top:2px solid #000;
+  display:inline;
+}
+
+#frame-links a{
+  margin: 5%;
+}
