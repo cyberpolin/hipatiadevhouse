@@ -98,7 +98,7 @@ nav ul li a:hover{
   color: #fff;
 }
 /*Footer*/
-footer .footer-gray{
+#footer-gray{
   background: #646464;
   color: white;
 }
@@ -195,7 +195,6 @@ footer p{
 }
 /*CONTAINER*/
 #container{
-  height: 820px;
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
@@ -206,26 +205,11 @@ footer p{
 .container-derecha{
 }
 .container-media{
-
   padding-left: 5px;
-  height: 600px;
 }
 .container-media img{
   width: 100%;
   margin: 200px auto;
-}
-.container-center{
-  text-align: center;
-}
-.container-center a{
-  opacity: 0.3;
-}
-.container-center a:hover{
-  opacity: 1;
-  color: #000;
-}
-.container-center .empty{
-  height: 700px;
 }
 .container-button{
   float: right;
@@ -235,31 +219,66 @@ footer p{
   margin: 0 10px;
 }
 
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
 
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
+/* Pagina de los cursos*/
+#header-title{
+  background: red;
+  height: 200px;
+  text-align:center;
+}
+#header-title span{
+  font-size:72px;
+}
+.active{
+  border-bottom: 6px solid #FEEF29;
 }
 
-.tooltip:hover .tooltiptext {
-    visibility: visible;
+.main-course{
+  padding:0 0 4% 0;
+}
+.row-course{
+  display: flex;
+  justify-content:center;
+}
+.courses{
+  width:220px;
+  height: 260px ;
+  background: red;
+  margin: 1% 4%;
+}
+.row-course .courses div{
+  display:flex;
+  justify-content: center;
+  padding: 1% 0;
+}
+.row-course .courses h6, p{
+  display:flex;
+  justify-content: center;
+  margin: 1em .3em;
+}
+/* Pagina Login*/
+
+#frame-login{
+  border:2px solid #000;
+  text-align:center;
+  margin: 10% 0;
 }
 
-.tooltip .tooltiptext::after {
-    content: " ";
-    position: absolute;
-    top: 50%;
-    right: 100%; /* To the left of the tooltip */
-    margin-top: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: transparent black transparent transparent;
+#frame-login h3{
+  display:block;
+  margin-top:1em;
+}
+
+#frame-form input{
+  display:block;
+  margin: 30px 0;
+}
+
+#frame-links{
+  border-top:2px solid #000;
+  display:inline;
+}
+
+#frame-links a{
+  margin: 5%;
 }
