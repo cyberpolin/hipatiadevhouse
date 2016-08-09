@@ -107,18 +107,28 @@ Email
 
 ![Email-confirm](imgs/screenshot-.png)
 
+- Email for confirm and terminate the register process.
+
 New password
 
 ![New password](imgs/screenshot-08.png)
+
+- Page for register of new password of new user.
 
 Path
 
 ![Temary page](imgs/screenshot-06.png)
 
+- Page with the content of the course, with the program and button of pay.
+
 Pay
 
-![Pay Course](imgs/screenshot-.png)
+![Pay Course](imgs/screenshot-09.png)
+
+- Page for the pay of the course.
 
 Course Page
 
 ![Course Page](imgs/screenshot-01.png)
+
+- Page of the course where the user find content and take readings and exercises.

@@ -9,6 +9,12 @@
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/styles.css">
   <link href='https://fonts.googleapis.com/css?family=Raleway:300,400,600' rel='stylesheet' type='text/css'>
+  <script>
+    function abrir() {
+    open('pay-course.html','','top=300,left=300,width=500,height=700') ;
+    }
+  </script>
+
 </head>
 <body>
   <header>
@@ -34,7 +40,7 @@
   <main class="container">
     <section>
       <div class="row" id="title-course">
-        <div class="four columns"><button id="pay-button" type="button" name="pay" value="">Pagar Curso</button></div>
+        <div class="four columns"><button onclick="abrir()" id="pay-button" type="button" name="pay" value="">Pagar Curso</button></div>
         <div class="four columns"><h2>Titulo</h2></div>
         <div class="four columns"></div>
       </div>

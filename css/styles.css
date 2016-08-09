@@ -258,7 +258,7 @@ footer p{
 }
 /* Pagina Login*/
 
-#frame-login{
+#frame-login {
   border:2px solid #000;
   text-align:center;
   margin: 10% 0;
@@ -269,7 +269,15 @@ footer p{
   margin-top:1em;
 }
 
-#frame-form input{
+#frame-form input[type=text]{
+  display:block;
+  margin: 30px 0;
+}
+#frame-form input[type=password]{
+  display:block;
+  margin: 30px 0;
+}
+#frame-form input[type=email]{
   display:block;
   margin: 30px 0;
 }
@@ -317,4 +325,31 @@ footer p{
 
 #list-temary{
   list-style: upper-alpha;
+}
+/*Pagina Pay*/
+#frame-pay{
+  border:2px solid #000;
+  margin: 10% 0;
+  text-align:center;
+
+}
+#frame-pay h3{
+  display:block;
+  margin-top:1em;
+}
+#fecha-venc{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+#fecha-venc span{
+  font-size: 1.7em;
+}
+.fecha-venc{
+  width: 4em;
+}
+
+#btn-pay{
+  display: flex;
+  justify-content: center;
 }
