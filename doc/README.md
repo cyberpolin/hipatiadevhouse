@@ -127,7 +127,7 @@ Pay
 
 - Page for the pay of the course.
 
-Course Page
+Course page
 
 ![Course Page](imgs/screenshot-01.png)
 
